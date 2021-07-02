@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:Ink Free;
+	font-size:20px;
+}
+
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(ots.jpg);
+	background-size:cover;
+	align-items: center;
+    justify-content: center;
+}
+
+
+.logo{
+    height: 20px;
+    position: relative;
+    transition: 0.6s;
+}
+
+.form-box{
+    width: 400px;
+    height: 760px;
+    position: relative;
+    margin: 6% auto;
+  	padding: 5px;
+    border: #00ffff solid 2px;
+    border-radius: 3%;
+	overflow: hidden;
+	 background: rgb(0, 0, 0); 
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.button-box{
+    width: 260px;
+    margin: 35px auto;
+    position: relative;
+    box-shadow: 0 0 20px 9px #00ffff;
+    border-radius: 30px;
+}
+
+.toggle-btn{
+    padding: 10px 30px;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    outline: none;
+    position: relative;
+}
+
+#btn{
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 126px;
+    height: 100%;
+    background:white;
+    border-radius: 30px;
+    transition: .5s;
+}
+
+.input{
+    top: 180px;
+    position: absolute;
+    width: 280px;
+    transition: .5s;
+}
+
+.field{
+    width: 100%;
+    padding: 10px 0;
+    margin: 5px 0;
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+    border-bottom: 1px solid #00ffff;
+    outline: none;
+    background: transparent;
+}
+
+.submit{
+    width: 85%;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+	border: #00ffff solid 2px;
+    border-radius: 3%;
+    margin: auto;
+    background: #ffffff;
+    border: 0;
+    outline: none;
+}
+.submit. hover{
+	background-color:#000000;
+}
+
+.check{
+    margin: 30px 10px 30px 0;
+}
+
+span{
+    color: #777;
+    font-size: 12px;
+    bottom: 63px;
+    position: absolute;
+}
+
+#log{
+    left: 50px;
+}
+
+#reg{
+    left: 450px;
+}

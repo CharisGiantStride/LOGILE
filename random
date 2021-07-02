@@ -1,0 +1,409 @@
+/* Imports Yahoo reset stylesheets */
+@import '/css/reset.css'; 
+@import '/css/fonts.css';
+
+
+
+/* HTML ELEMENTS DEFAULT STYLES */
+
+body {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:95%;
+	background-color: #93D0D1;
+	background-image: url(bkg1.gif);
+	background-repeat: repeat-x;
+	background-position: top;
+	margin: 0px;
+	padding: 0px;
+}
+
+p,li,label { 
+			font-size:95%; 
+			margin-bottom:1em; 
+			line-height:1.4em; 
+			color:#333; }
+			
+p.centered {
+	text-align: center;
+}
+			
+h1,h2,h3,h4,h6 { 
+			font-family:Arial, Helvetica, sans-serif; 
+			font-weight:bold; 
+			color:#53A06F; }
+
+h1 { 
+			font-size:130%; 
+			margin:10px 0 .6em; }
+
+h2 { 
+			font-size:120%; 
+			margin:1.5em 0 .5em 0; }
+
+h3 { 
+			font-size:110%; 
+			margin:1em 0 .5em 0; }
+			
+h4 {
+	font-size:100%;
+	color: #53A06F;
+	margin: 0px;
+}
+
+th, td { 
+			font-size:95%; 
+			padding:3px; 
+			color:#333; }
+			
+			
+td label, td p { 
+			font-size:95%; }
+
+ul, ol { 
+			margin:1em 0 1em 12px; 
+			padding-left:12px; 
+			list-style-type:disc; }
+
+ol { 
+			margin-left:12px; 
+			padding-left:12px; }
+
+img { 
+			border:0; }
+			
+img.center {
+					 display: block;   margin-left: auto;   margin-right: auto; }
+
+em { 
+			font-style:italic; }
+			
+/* LINKS */
+			
+a:link {
+	color:#0000FF;
+	text-decoration: none;
+}
+
+a:visited {
+	color:#0000FF;
+	text-decoration: none;
+}
+
+a:hover {
+	color:#0000FF;
+	text-decoration:underline;
+}
+
+a:active {
+	color:#0000FF;
+	text-decoration: none;
+}
+
+
+
+/* GLOBAL PAGE PARTS */
+			
+#bodybody {
+	margin:0 auto;
+	position:relative;
+	width:824px;
+	padding:0px;
+}
+
+.headerLogo{
+	margin-bottom: 0px;
+	float: left;
+	margin-top: 0px;
+	padding: 0px;
+}
+
+#mainNav {
+	width:807px;
+	height: 66px;
+	background-color: #FFFFFF;
+	border-left-width: 17px;
+	border-left-style: solid;
+	border-left-color: #93CFD4;
+	float: left;
+	margin: 0px;
+	padding: 0px;
+}
+
+#contentInteriorLeft {
+	width:500px;
+	float:left;
+	padding: 6px 8px 0px 0px;
+	margin-top: 10px;
+	margin-right: 5px;
+}
+
+#contentInteriorRight {
+	width:226px;
+	float:right;
+	padding-top: 6px;
+	padding-bottom: 0px;
+	padding-left: 10px;
+	padding-right: 6px;
+	background-color: #F5F8CA;
+	margin-top: 10px;
+	font-size: 95%;
+}
+
+#contentInteriorRightWrap {
+	overflow:hidden;
+	border-left-width: 7px;
+	border-left-style: solid;
+	border-left-color: #F7F999;
+	border-bottom-width: 7px;
+	border-bottom-style: solid;
+	border-bottom-color: #F7F999;
+	padding-bottom: 8px;
+}
+
+#contentInterior {
+	width:770px;
+	float:left;
+	padding: 0px 17px 12px 20px;
+	background-color: #FFFFFF;
+	margin-top: 0px;
+	border-left-width: 17px;
+	border-left-style: solid;
+	border-left-color: #93D0D1;
+}
+
+
+/* BOTTOM OF PAGE */
+
+#copyright {
+	margin-top:0px;
+	clear:both;
+	width: 820px;
+	margin-right: auto;
+	margin-bottom: 10px;
+	margin-left: auto;
+	padding-top: 4px;
+	padding-bottom: 6px;
+	font-size: 95%;
+	color: #EEEEEE;
+	text-align: right;
+}
+
+#copyright a {
+	font-weight:normal;
+	color: #006666;
+	text-decoration: none;
+}
+
+#copyright a:hover {
+	text-decoration: underline;
+}
+
+
+.clear {
+	clear:both;
+}
+
+
+#box h2 {
+	margin:0;
+	color:#333;
+	font-size:86%;
+	padding: 8px;
+}
+
+
+
+#h-nav {
+
+	margin:0px;
+	font-size:98%;
+	color: #53A06F;
+	padding: 0px;
+}
+
+.linkHeader1 {
+	font-size: 110%;
+	color: #53A06F;
+	font-weight: bold;
+}
+
+hr {
+ 	border: 0;
+ 	color: #EAEAEA;
+	background-color: #CCC;
+	height: 1px;
+}
+
+img.speaker-image {
+	float:left;
+	vertical-align: top;
+	padding-top: 4px;
+	padding-right: 12px;
+}
+#textinfo {
+	margin: 12px 0px 0px;
+	color: #999999;
+	font-size: 95%;
+	padding: 8px 0px 0px;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #D0E3E0;
+}
+#contentInteriorBarChampions {
+	width:146px;
+	float:right;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	padding-left: 10px;
+	padding-right: 6px;
+	background-color: #DDFED1;
+	margin-top: 0px;
+	margin-bottom: 14px;
+	margin-left: 8px;
+	margin-right: 0px;
+}
+#contentInteriorBackIssues {
+	width:25%;
+	float:right;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	padding-left: 10px;
+	padding-right: 6px;
+	background-color: #DDFED1;
+	margin-top: 0px;
+	margin-bottom: 14px;
+	margin-left: 8px;
+	margin-right: 0px;
+}
+.backIssueLeftCol{
+
+	text-align:center; 
+	width:55%;
+}
+.backIssueRightCol{
+
+	text-align:left; 
+	width:45%;
+}
+.backIssueLeftColInner{
+
+	vertical-align:top; 
+	text-align:center; 
+	padding-bottom:12px;
+}
+.backIssueRightColInner{
+
+	vertical-align:top; 
+	text-align:left; 
+	padding-left:4px; 
+	padding-bottom:12px;
+}
+.linkHeader2AA {
+
+	font-size: 110%;
+	color: #CC0066;
+	font-weight: bold;
+}
+#coolspotTop {
+	width:460px;
+	float:left;
+	padding: 6px 12px 0px;
+	border-right-width: 4px;
+	border-right-style: solid;
+	border-right-color: #CEEAE9;
+	margin-top: 10px;
+	border-top-width: 4px;
+	border-left-width: 4px;
+	border-top-style: solid;
+	border-bottom-style: none;
+	border-left-style: solid;
+	border-top-color: #CEEAE9;
+	border-left-color: #CEEAE9;
+}
+#coolspotBottom {
+	width:460px;
+	float:left;
+	padding: 6px 12px;
+	border-right-width: 4px;
+	border-right-style: solid;
+	border-right-color: #CEEAE9;
+	border-left-width: 4px;
+	border-top-style: none;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-left-color: #CEEAE9;
+	background-color: #F7F29C;
+	margin-bottom: 10px;
+	border-bottom-width: 4px;
+	border-bottom-color: #CEEAE9;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 90%;
+}
+.coolspotLeft {
+	float: left;
+	font-size:80%; 
+	margin-bottom:1em; 
+	line-height:1.4em; 
+	color:#333;
+}
+.coolspotRight { 
+	float: right;
+	font-size:80%; 
+	margin-bottom:1em; 
+	line-height:1.4em; 
+	color:#333; 
+}
+.coolspotImg {
+	float: left;
+	padding-right: 4px;
+}
+#KQquestionBox {
+	width:430px;
+	float:left;
+	padding: 4px 12px;
+	margin-top: 10px;
+	background-color: #FFFF67;
+	border: 1px dotted #009966;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 96%;
+}
+img.kidquest-image {
+	float:right;
+	vertical-align: top;
+	padding-right: 2px;
+	padding-left: 12px;
+}
+.linkHeader2Games {
+
+
+	font-size: 12px;
+	color: #CC660B;
+	font-weight: normal;
+}
+.linkHeader2GamesGrey {
+
+
+
+	font-size: 12px;
+	color: #999999;
+	font-weight: normal;
+}
+
+.speakout-text {
+	color: #000066;
+}
+
+#speakout-wrap {
+
+	width: 450px;
+	background-color: #FFFFFF;
+}
+
+#speakout-comments {
+
+	width: 430px;
+	background-color: #CCFFFF;
+	padding-top: 2px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
